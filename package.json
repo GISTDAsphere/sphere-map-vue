@@ -1,0 +1,40 @@
+{
+  "name": "sphere-map-vue",
+  "version": "1.0.0",
+  "description": "sphere map component for VueJS",
+  "author": "sphere Developer <sphere.dev@gistda.or.th>",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://github.com/GISTDAsphere/sphere-map-vue#readme",
+  "repository": "github:GISTDAsphere/sphere-map-vue",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/sphere-map-vue.umd.js",
+  "module": "./dist/sphere-map-vue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sphere-map-vue.es.js",
+      "require": "./dist/sphere-map-vue.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  },
+  "keywords": [
+    "GISTDA",
+    "map",
+    "vue",
+    "vue.js",
+    "vue3",
+    "nuxt"
+  ]
+}
